@@ -6,7 +6,7 @@
 
 Spare Cores, a Python-based open-source ecosystem, provides a comprehensive and standardized inventory, along with performance evaluations of available compute resources across public cloud and server providers.
 
-# $ apropos sc
+# `$ apropos sc`
 
 Spare Cores is an ecosystem, including Python packages, SDKs in other programming languages, CLI tools, public APIs, and web applications providing:
 
@@ -16,7 +16,7 @@ Spare Cores is an ecosystem, including Python packages, SDKs in other programmin
 - Standardized launcher CLI tool to start any instance type at the supported vendors.
 - Coming soon! SaaS to seamlessly launch batch jobs and services on any supported instance type at the Spare Cores cloud environment without any vendor engagement.
 
-# $ man sc.EXAMPLES
+# `$ man sc.EXAMPLES`
 
 Using Spare Cores to find the optimal instance type among many supported vendors might be useful e.g. for the below use-cases:
 
@@ -26,7 +26,7 @@ Using Spare Cores to find the optimal instance type among many supported vendors
 - Classic CI/CD tasks (compiling and testing software), such as your expensive GitHub Action runners on private repos.
 - Training ML/AI models.
 
-# $ poetry search sc-
+# `$ poetry search sc-`
 
 Spare Cores is still in the early development phase, started in Q3 of 2023 and more actively in 2024 thanks to NGI Search funding. Please find the status and short description of all the planned components below:
 
@@ -38,11 +38,11 @@ Spare Cores is still in the early development phase, started in Q3 of 2023 and m
 | SC Scanner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Programming language SDKs to use the API for searching.|
 | SC Runner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Launching actual cloud instances.|
 
-# $ licensecheck
+# `$ licensecheck`
 
 [!["MPL 2.0 License](https://img.shields.io/github/license/sparecores/sc-crawler)](https://www.mozilla.org/en-US/MPL/2.0/)
 
-# $ git shortlog -s -n
+# `$ git shortlog -s -n`
 
 - Attila Nagy ([@bra-fsn](https://www.github.com/bra-fsn)): Infrastructure and Python veteran.
 - Balazs Hodobay ([@palabola](https://www.github.com/palabola)): Guardian of the front-end and Node.js tools.
