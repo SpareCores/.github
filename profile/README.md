@@ -16,3 +16,13 @@ Spare Cores is an ecosystem, including Python packages, SDKs in other programmin
 - Standardized launcher CLI tool to start any instance type at the supported vendors.
 - Coming soon! SaaS to seamlessly launch batch jobs and services on any supported instance type at the Spare Cores cloud environment without any vendor engagement.
 
+# $ man sc.EXAMPLES
+
+Using Spare Cores to find the optimal instance type among many supported vendors might be useful e.g. for the below use-cases:
+
+- Batch (e.g. Data Science or ETL) jobs with unusual compute requirements, which are not a good fit for Kubernetes. While binpacking potentially works great for microservices, batch jobs have varying memory and compute needs and long run times, which makes them a better fit to run on dedicated (spot) instances.
+- Digital artists rendering videos using GPUs.
+- One-off scripts requiring a lot of memory (e.g. ad-hoc analysis you cannot run on your laptop).
+- Classic CI/CD tasks (compiling and testing software), such as your expensive GitHub Action runners on private repos.
+- Training ML/AI models.
+
