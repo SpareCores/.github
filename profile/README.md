@@ -8,27 +8,27 @@ Spare Cores, a Python-based open-source ecosystem, provides a comprehensive and 
 
 # `$ apropos sc`
 
-Spare Cores is an ecosystem, including Python packages, SDKs in other programming languages, CLI tools, public APIs, and web applications providing:
+Spare Cores is an ecosystem, including Python packages, SDKs in other programming languages, CLI tools, public APIs, and web applications, providing:
 
-- A standardized server type listing of several cloud and other server providers, including data on compute/memory/storage/graphical processing units etc, along with benchmark scenarios and related cores/performance/cost metrics.
-- An easy-to-search web application to compare listings, along with detailed product pages for each server type, including historical on-demand and spot prices, and list of similar machines.
-- HTTP API and SDKs to search programatically.
-- Standardized launcher CLI tool to start any instance type at the supported vendors.
-- Coming soon! SaaS to seamlessly launch batch jobs and services on any supported instance type at the Spare Cores cloud environment without any vendor engagement.
+- A standardized server type listing of several cloud and other server providers. It includes data on compute/memory/storage/graphical processing units etc, along with benchmark scenarios and related performance/cores/cost metrics.
+- An easy-to-search web application to compare listings, along with detailed product pages for each server type, including historical on-demand and spot prices, and lists of similar machines.
+- HTTP API and SDKs to search programmatically.
+- A generalized launcher CLI tool to start any instance type at the supported vendors.
+- Coming soon: SaaS for seamlessly launching batch jobs and services on any supported instance type at the Spare Cores cloud environment without any vendor engagement.
 
 # `$ man sc.EXAMPLES`
 
-Using Spare Cores to find the optimal instance type among many supported vendors might be useful e.g. for the below use-cases:
+Using Spare Cores to find the optimal instance type among many supported vendors might be useful for the below use-cases (among many other):
 
-- Batch (e.g. Data Science or ETL) jobs with unusual compute requirements, which are not a good fit for Kubernetes. While binpacking potentially works great for microservices, batch jobs have varying memory and compute needs and long run times, which makes them a better fit to run on dedicated (spot) instances.
+- Batch jobs, for example, in Data Science or ETL, often have unusual compute requirements that may not be a good fit for Kubernetes. While binpacking potentially works great for microservices, batch jobs have varying memory and compute needs, as well as long run times. This makes them a better fit to run on dedicated (spot) instances.
 - Digital artists rendering videos using GPUs.
 - One-off scripts requiring a lot of memory (e.g. ad-hoc analysis you cannot run on your laptop).
-- Classic CI/CD tasks (compiling and testing software), such as your expensive GitHub Action runners on private repos.
+- Classic CI/CD tasks, like compiling and testing software, are also common use-cases. This includes scenarios such as utilizing expensive GitHub Action runners on private repositories.
 - Training ML/AI models.
 
 # `$ poetry search sc-`
 
-Spare Cores is still in the early development phase, started in Q3 of 2023 and more actively in 2024 thanks to NGI Search funding. Please find the status and short description of all the planned components below:
+Spare Cores is still in the early development phase, initiated in Q3 of 2023 and gaining momentum in 2024, particularly due to the support from NGI Search funding. Below, you can find the status and brief descriptions of all the existing and planned components:
 
 | Component | Status | Repository | Description |
 | --------- | ------ | ---------- | ----------- |
