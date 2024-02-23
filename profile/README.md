@@ -33,10 +33,10 @@ Spare Cores is still in the early development phase, started in Q3 of 2023 and m
 | Component | Status | Repository | Description |
 | --------- | ------ | ---------- | ----------- |
 | SC Crawler | <picture><img alt="Project Status: Pre Alpha" src="https://img.shields.io/badge/Status-Pre--alpha-lightblue"></picture> | [![](https://img.shields.io/badge/pip-sc--crawler-lightblue?logo=python)](https://github.com/SpareCores/sc-crawler) | Inventory cloud resources into a SQlite database.|
-| SC Data | <picture><img alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-blue"></picture> | [![](https://img.shields.io/badge/pip-sc--data-blue?logo=python)](https://github.com/SpareCores/sc-data) | Inventory cloud resources into a SQlite database.|
-| SC Keeper | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |  | Inventory cloud resources into a SQlite database.|
-| SC Scanner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Inventory cloud resources into a SQlite database.|
-| SC Runner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Inventory cloud resources into a SQlite database.|
+| SC Data | <picture><img alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-blue"></picture> | [![](https://img.shields.io/badge/pip-sc--data-blue?logo=python)](https://github.com/SpareCores/sc-data) | Wrapper around data collected using the Crawler.|
+| SC Keeper | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |  | API to search the database.|
+| SC Scanner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Programming language SDKs to use the API for searching.|
+| SC Runner | <picture><img alt="Project Status: Proof-of-Concept" src="https://img.shields.io/badge/Status-POC-lightgrey"></picture> |   | Launching actual cloud instances.|
 
 # $ licensecheck
 
