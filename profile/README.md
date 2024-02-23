@@ -30,11 +30,11 @@ Using Spare Cores to find the optimal instance type among many supported vendors
 
 Spare Cores is still in the early development phase, started in Q3 of 2023 and more actively in 2024 thanks to NGI Search funding. Please find the status and short description of all the planned components below:
 
-- SC Crawler [![](https://img.shields.io/badge/pip-sc--crawler-lightblue?logo=python)](https://github.com/SpareCores/sc-crawler) ![https://img.shields.io/badge/Status-Pre--alpha-lightblue]: Inventory cloud resources into a SQlite database.
-- SC Data [![](https://img.shields.io/badge/pip-sc--data-blue?logo=python)](https://github.com/SpareCores/sc-data) ![https://img.shields.io/badge/Status-Alpha-blue]: Wrapper around data collected using the Crawler.
-- SC Keeper ![https://img.shields.io/badge/Status-POC-lightgrey]: API to search the database
-- SC Scanner ![https://img.shields.io/badge/Status-POC-lightgrey]: Programming language SDKs to use the API for searching.
-- SC Runner ![https://img.shields.io/badge/Status-POC-lightgrey]: Launching actual cloud instances.
+- SC Crawler [![](https://img.shields.io/badge/pip-sc--crawler-lightblue?logo=python)](https://github.com/SpareCores/sc-crawler) ![](https://img.shields.io/badge/Status-Pre--alpha-lightblue): Inventory cloud resources into a SQlite database.
+- SC Data [![](https://img.shields.io/badge/pip-sc--data-blue?logo=python)](https://github.com/SpareCores/sc-data) ![](https://img.shields.io/badge/Status-Alpha-blue): Wrapper around data collected using the Crawler.
+- SC Keeper ![](https://img.shields.io/badge/Status-POC-lightgrey): API to search the database
+- SC Scanner ![](https://img.shields.io/badge/Status-POC-lightgrey): Programming language SDKs to use the API for searching.
+- SC Runner ![](https://img.shields.io/badge/Status-POC-lightgrey): Launching actual cloud instances.
 
 # $ licensecheck
 
