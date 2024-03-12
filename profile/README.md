@@ -1,10 +1,10 @@
-# `$ cat /etc/motd`
-
-<picture>
+<picture style="display: block; text-align: center;>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SpareCores/.github/assets/495736/2b906091-cc0b-4e05-9dbc-114e5fb1852b">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/SpareCores/.github/assets/495736/bba4ff17-0f39-413c-bbcd-3b37f65a52aa">
   <img alt="Spare Cores logo" src="https://github.com/SpareCores/.github/assets/495736/bba4ff17-0f39-413c-bbcd-3b37f65a52aa">
 </picture>
+
+# `$ cat /etc/motd`
 
 > Harnessing the compute resources of the cloud to optimize efficiency and costs of batch and service tasks.
 
