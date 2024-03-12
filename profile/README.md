@@ -1,5 +1,11 @@
 # `$ cat /etc/motd`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./logo-horizontal-for-dark-bg.png">
+  <source media="(prefers-color-scheme: light)" srcset="./logo-horizontal-for-light-bg.png">
+  <img alt="Spare Cores logo" src="./logo-horizontal-for-light-bg.png">
+</picture>
+
 > Harnessing the compute resources of the cloud to optimize efficiency and costs of batch and service tasks.
 
 # `$ whatis sc`
@@ -35,7 +41,7 @@ Spare Cores is still in the early development phase, initiated in Q3 of 2023 and
 | SC Crawler | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><img alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-blue"></picture> | [![](https://img.shields.io/badge/pip-sc--crawler-blue?logo=python)](https://github.com/SpareCores/sc-crawler) | Inventory cloud resources into a SQlite database.|
 | SC Data | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Alpha-blue"><img alt="Project Status: Alpha" src="https://img.shields.io/badge/Status-Alpha-blue"></picture> | [![](https://img.shields.io/badge/pip-sc--data-blue?logo=python)](https://github.com/SpareCores/sc-data) | Wrapper around data collected using the Crawler.|
 | SC Keeper | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><img alt="Project Status: Pre Alpha" src="https://img.shields.io/badge/Status-Pre--alpha-lightblue"></picture> | [![](https://img.shields.io/badge/pip-sc--keeper-lightblue?logo=python)](https://github.com/SpareCores/sc-keeper)  | API to search the database.|
-| SC Scanner | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><img alt="Project Status: Pre Alpha" src="https://img.shields.io/badge/Status-Pre--alpha-lightblue"></picture> |   | Programming language SDKs to use the API for searching.|
+| SC Scanner | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Pre--alpha-lightblue"><img alt="Project Status: Pre Alpha" src="https://img.shields.io/badge/Status-Pre--alpha-lightblue"></picture> | | Programming language SDKs to use the API for searching.|
 | SC Runner | <picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Status-Planning-lightgrey"><source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Status-Planning-lightgrey"><img alt="Project Status: Planning" src="https://img.shields.io/badge/Status-Planning-lightgrey"></picture> |   | Launching actual cloud instances.|
 
 # `$ licensecheck`
