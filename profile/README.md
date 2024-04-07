@@ -46,7 +46,7 @@ Spare Cores is still in the early development phase, initiated in Q3 of 2023 and
 
 # `$ licensecheck`
 
-[!["MPL 2.0 License](https://img.shields.io/github/license/sparecores/sc-crawler?label=software)](https://www.mozilla.org/en-US/MPL/2.0/) [!["CC-BY-SA 4.0 License](https://img.shields.io/github/license/sparecores/sc-data?label=data)](https://creativecommons.org/licenses/by-sa/4.0/)
+[!["MPL 2.0 License](https://img.shields.io/github/license/sparecores/sc-crawler?label=software&color=blue)](https://www.mozilla.org/en-US/MPL/2.0/) [!["CC-BY-SA 4.0 License](https://img.shields.io/github/license/sparecores/sc-data?label=data&color=blue)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 # `$ git shortlog -s -n`
 
